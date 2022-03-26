@@ -11,3 +11,9 @@ docker run -d -p 3000:3000 node-app
 
 *도커 프로세스 확인
 docker ps
+
+*도커 컨테이너 중지
+docker container stop container-id
+
+*도커 컨테이너 삭제
+docker container rm container-id
