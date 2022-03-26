@@ -12,6 +12,9 @@ docker run -d -p 3000:3000 node-app
 *도커 프로세스 확인
 docker ps
 
+*정지된 도커 컨테이너 확인
+docker ps -a
+
 *도커 컨테이너 중지
 docker container stop container-id
 
